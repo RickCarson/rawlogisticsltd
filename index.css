@@ -1,0 +1,99 @@
+
+* {
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: sans-serif;
+  min-width: 350px;
+  margin: auto;
+}
+
+#header {
+  color: darkkhaki;
+  font-variant: small-caps;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#frontpage {
+  font-variant: small-caps;
+  background-color: black;
+  width: 100%;
+}
+
+#welcome {
+  font-variant: small-caps;
+  background-color: #2E2E2E;
+  color: whitesmoke;
+  padding: 30px;
+}
+
+h2 {
+  color: darkkhaki;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+.section {
+  margin: auto;
+  background-color: whitesmoke;
+
+  margin-bottom: 10px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blurb {
+  float: left;
+  margin: auto;
+  min-width: 350px;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#blurb1 {
+  background-image: url("assets/logistics5.jpg");
+}
+
+#blurb2 {
+  background-image: url("assets/logistics4.jpg");
+}
+
+#blurb3 {
+  background-image: url("assets/logistics3.jpg");
+}
+
+ul {
+  list-style: none;
+}
+
+.contactvalue {
+  color: burlywood;
+}
+
+#footer {
+  background-color: black;
+  color: bisque;
+  padding: 50px;
+}
