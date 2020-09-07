@@ -122,30 +122,42 @@ img {
 
 /************************** Haylage **************************/
 
-div#meettheteam {
+div#haylage {
   display: grid;
-  grid: auto / 1fr 1fr ;
+  grid: auto auto / 1fr 1fr ;
   justify-content: center;
 } 
 
-div#meettheteam img {
+div#haylage img {
   width: 100%;
   height: auto;
+  grid-column: span 1;
 } 
 
-div#meettheteam div {
+div#haylage div {
   font-variant: small-caps;
   background-color: #2E2E2E;
   color: whitesmoke;
   padding: 30px;
+  grid-column: span 1;
 }
 
-div#meettheteam div a:link {
+div#haylage div a:link {
   color: gold;
 }
 
-div#meettheteam div a:visited {
+div#haylage div a:visited {
   color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 850px) {
+  div#haylage img {
+    grid-column: span 2;
+  }
+
+  div#haylage div {
+    grid-column: span 2;
+  }
 }
 
 /************************** /Haylage **************************/
