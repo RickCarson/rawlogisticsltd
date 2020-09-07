@@ -9,7 +9,7 @@ html,body {
   margin: 0;
   background-color: white;
   font-family: sans-serif;
-  min-width: 550px;
+  min-width: 530px;
   /* margin: auto; */
 }
 
@@ -69,8 +69,6 @@ ul#aboutus-flex-container li {
   height: 500px;
   border: 2px white solid;
   position: relative;
-  border-radius: 250px;
-
 }
 
 ul#aboutus-flex-container li:after {
@@ -125,6 +123,46 @@ img {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+/************************** Meet the team **************************/
+
+div#meettheteam {
+  display: grid;
+  grid: auto / 1fr 1fr ;
+  grid-gap: 10px;
+  justify-content: center;
+} 
+
+div#meettheteam img {
+  justify-self: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+}
+
+div#meettheteam div p {
+  text-align: left;
+}
+
+div#meettheteam .right p {
+  text-align: right;
+}
+
+
+div#meettheteam div p span {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+  div#meettheteam img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+
+/************************** /Meet the team **************************/
+
 
 .grid-container {
   display: grid;
