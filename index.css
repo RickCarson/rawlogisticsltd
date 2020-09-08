@@ -136,6 +136,7 @@ div#haylage img {
 
 div#haylage div {
   font-variant: small-caps;
+  font-size: xx-large;
   background-color: #2E2E2E;
   color: whitesmoke;
   padding: 30px;
@@ -157,6 +158,12 @@ div#haylage div a:visited {
 
   div#haylage div {
     grid-column: span 2;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  div#haylage div {
+    font-size: large;
   }
 }
 
