@@ -134,6 +134,10 @@ div#haylage img {
   grid-column: span 1;
 } 
 
+div#haylage img:hover {
+  content: url(./assets/haylage2.jpg);
+}
+
 div#haylage div {
   font-variant: small-caps;
   font-size: xx-large;
