@@ -221,13 +221,6 @@ div#haylage div a:visited {
 }
 
 @media only screen and (max-width: 800px) {
-  #img-1{
-    content: url(./assets/fleetcar.jpg);
-  }
-
-  #img-2{
-    content: url(./assets/fleetfront.jpg);
-  }
 
   #img-3{
     content: url(./assets/fleetcab.jpg);
