@@ -10,16 +10,16 @@
 </head>
 
 <body>
-  <div id="header">
+  <div id="header" class="hidden">
     <h1>Raw Logistics Ltd.</h1>
   </div>
 
-  <div id="frontpage">
+  <div id="frontpage" class="hidden">
     <img class="responsive" src="./assets/logo.jpg" alt="Raw Logistics Ltd. Logo" />
     <h2 id="welcome"> Welcome to Raw Logistics Ltd.</h2>
   </div>
 
-  <div id="aboutus" class="section">
+  <div id="aboutus" class="hidden">
     <h2>About Us</h2>
 
     <ul id="aboutus-flex-container">
@@ -59,26 +59,27 @@
         <img id="img-3" src="./assets/fleetcab.jpg" />
       </li>
     </ul>
+  </div>
 
-    <!-- ************************** Haylage ************************** -->
+  <!-- ************************** Haylage ************************** -->
 
-    <h2>Haylage</h2>
-    <div id="haylage" class="section">
+  <h2>Haylage</h2>
+  <div id="haylage" class="hidden">
 
 
-      <img class="teampic" src="assets/haylage1.jpg" />
-      <div>
-        <p>
-          New season 2020 haylage and hay available.
-        </p>
-        <p>Get in touch for best prices</p>
-        <p>
-          <a href="#contact">Contact us</a> on the details below.
-        </p>
-      </div>
+    <img class="teampic" src="assets/haylage1.jpg" />
+    <div>
+      <p>
+        New season 2020 haylage and hay available.
+      </p>
+      <p>Get in touch for best prices</p>
+      <p>
+        <a href="#contact">Contact us</a> on the details below.
+      </p>
     </div>
+  </div>
 
-    <!-- ************************** /Haylage ************************** -->
+  <!-- ************************** /Haylage ************************** -->
 
     <!-- ************************** Meet the team ************************** -->
 
@@ -118,45 +119,80 @@
 
     <!-- ************************** Gallery ************************** -->
 
-    <div id="gallery" class="section">
-      <h2>Gallery</h2>
-      <div class="grid-container">
-        <img class="gallery-img" src="./assets/bay1.jpg" />
-        <img class="gallery-img" src="./assets/haylage1.jpg" />
-        <img class="gallery-img" src="./assets/haylage2.jpg" />
-        <img class="gallery-img" src="./assets/haylage3.jpg" />
-        <img class="gallery-img" src="./assets/horsebox.jpg" />
-        <img class="gallery-img" src="./assets/fleetcab.jpg" />
-        <img class="gallery-img" src="./assets/fleetcar.jpg" />
-        <img class="gallery-img" src="./assets/fleetfront.jpg" />
-        <img class="gallery-img" src="./assets/fleetquarter.jpg" />
-        <img class="gallery-img" src="./assets/fleetside.jpg" />
-        <img class="gallery-img" src="./assets/cabandtrailer.jpg" />
-      </div>
-    </div>
+  <!-- ************************** Gallery ************************** -->
 
-    <!-- ************************** /Gallery ************************** -->
+  <div id="gallery" class="hidden">
+    <h2>Gallery</h2>
+    <div class="grid-container">
+      <img class="gallery-img" src="./assets/bay1.jpg" />
+      <img class="gallery-img" src="./assets/haylage1.jpg" />
+      <img class="gallery-img" src="./assets/haylage2.jpg" />
+      <img class="gallery-img" src="./assets/haylage3.jpg" />
+      <img class="gallery-img" src="./assets/horsebox.jpg" />
+      <img class="gallery-img" src="./assets/fleetcab.jpg" />
+      <img class="gallery-img" src="./assets/fleetcar.jpg" />
+      <img class="gallery-img" src="./assets/fleetfront.jpg" />
+      <img class="gallery-img" src="./assets/fleetquarter.jpg" />
+      <img class="gallery-img" src="./assets/fleetside.jpg" />
+      <img class="gallery-img" src="./assets/cabandtrailer.jpg" />
+    </div>
+  </div>
 
-    <div id="contact" class="section">
-      <h2>Contact Us</h2>
-      <h3>Raw Logistics Ltd.</h3>
-      <p>email: <a class="contactvalue" href="mailto:rawlogisticsltd@outlook.com">rawlogisticsltd@outlook.com</a></p>
-      <p>tel: <span class="contactvalue">01744 747083</p>
-      <p>mob: <span class="contactvalue">07768 627847</p>
-      <h3>Hours</h3>
-      <p>Mon - <span class="contactvalue">Open 24h</span></p>
-      <p>Tue - <span class="contactvalue">Open 24h</span></p>
-      <p>Wed - <span class="contactvalue">Open 24h</span></p>
-      <p>Thu - <span class="contactvalue">Open 24h</span></p>
-      <p>Fri - <span class="contactvalue">Open 24h</span></p>
-      <p>Sat - <span class="contactvalue">Open 24h</span></p>
-      <p>Sun - <span class="contactvalue">Open 24h</span></p>
-      <p>Business hours 24/7</p>
-    </div>
-    <div id="footer">
-      <p>Copyright &#169 2020 Raw Logistics Ltd. - All Rights Reserved.</p>
-    </div>
+  <!-- ************************** /Gallery ************************** -->
+
+  <div id="contact" class="hidden">
+    <h2>Contact Us</h2>
+    <h3>Raw Logistics Ltd.</h3>
+    <p>email: <a class="contactvalue" href="mailto:rawlogisticsltd@outlook.com">rawlogisticsltd@outlook.com</a></p>
+    <p>tel: <span class="contactvalue">01744 747083</p>
+    <p>mob: <span class="contactvalue">07768 627847</p>
+    <h3>Hours</h3>
+    <p>Mon - <span class="contactvalue">Open 24h</span></p>
+    <p>Tue - <span class="contactvalue">Open 24h</span></p>
+    <p>Wed - <span class="contactvalue">Open 24h</span></p>
+    <p>Thu - <span class="contactvalue">Open 24h</span></p>
+    <p>Fri - <span class="contactvalue">Open 24h</span></p>
+    <p>Sat - <span class="contactvalue">Open 24h</span></p>
+    <p>Sun - <span class="contactvalue">Open 24h</span></p>
+    <p>Business hours 24/7</p>
+  </div>
+  <div id="footer">
+    <p>Copyright &#169 2020 Raw Logistics Ltd. - All Rights Reserved.</p>
+  </div>
 
 </body>
 
 </html>
+
+<script>
+  (function () {
+    var elements;
+    var windowHeight;
+
+    function init() {
+      elements = document.querySelectorAll('.hidden');
+      windowHeight = window.innerHeight;
+    }
+
+    function checkPosition() {
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        var positionFromTop = elements[i].getBoundingClientRect().top;
+
+        if (positionFromTop - windowHeight <= 0) {
+          element.classList.add('fade-in-element');
+          element.classList.remove('hidden');
+        } else {
+          element.classList.remove('fade-in-element');
+          element.classList.add('hidden');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+  })();
+</script>
